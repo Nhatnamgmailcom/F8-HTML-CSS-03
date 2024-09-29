@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main-content {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header {
+  padding-top: 36px;
+  background: #10375c;
+  /* height: 100vh; !!! */
+}
+
+.btn {
+  border-radius: 22px;
+  background: #2e80ce;
+  width: 104px;
+  height: 44px;
+  flex-shrink: 0;
+  color: white;
+  padding: 8px 19px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  /* margin-right: 250px; !!!! */
+}
+
+.nav .img-logo {
+  margin-right: 308px;
+}
+
+.nav li a {
+  color: #c9d2da;
+  text-align: center;
+  font-family: Sora;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.nav li {
+  margin-right: 42px;
+}
+
+.nav .actions {
+  margin-left: auto;
+}
+
+.actions .Log-in {
+  color: #c9d2da;
+  text-align: right;
+  font-family: Sora;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  /* margin-left: 28px; !! */
+}
+
+.actions .Sign-up {
+  margin-left: 28px;
+  /* white-space: nowrap; */
+  color: #fff;
+  text-align: center;
+  font-family: Sora;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.actions .Sign-up:hover {
+  opacity: 0.8;
+}
+
+.hero {
+  padding-top: 144px;
+  background: #10375c;
+}
+
+.hero .hero-right .img-dentist1 {
+  /* width: 330px; */
+  height: 540px;
+  object-fit: cover;
+}
+.hero .hero-right .img-dentist2 {
+  /* width: 210px; */
+  height: 410px;
+  object-fit: cover;
+}
+
+.hero-row {
+  display: flex;
+  padding-bottom: 110px;
+}
+
+.hero-left .hero-title {
+  color: #fff;
+  font-family: Sora;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+  letter-spacing: -1.4px;
+  width: 517px;
+}
+
+.hero-left .hero-desc {
+  width: 468px;
+  color: #c9d2da;
+  font-family: Sora;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 22px;
+}
+
+.hero-left .hero-actions {
+  margin-top: 38px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-left .hero-actions .hero-btn {
+  color: #fff;
+  width: 205px;
+  height: 60px;
+  border-radius: 30px;
+  background: #2e80ce;
+  text-align: center;
+  font-family: Sora;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 40px;
+  /* white-space: nowrap; */
+  margin-right: 38px;
+}
+
+.hero-left .call-desc {
+  color: #fff;
+  text-align: center;
+  font-family: Sora;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.hero-left {
+  margin-right: 113px;
+}
+
+.hero-right {
+  position: relative;
+}
+.hero-right .img-dentist2 {
+  position: absolute;
+  margin-top: 78px;
+}
