@@ -106,7 +106,7 @@ nav {
 
 .hero-row {
   display: flex;
-  padding-bottom: 110px;
+  padding-bottom: 70px;
 }
 
 .hero-left .hero-title {
@@ -172,4 +172,109 @@ nav {
 .hero-right .img-dentist2 {
   position: absolute;
   margin-top: 78px;
+}
+
+.services {
+  padding: 170px 0;
+}
+
+.services .services-heading {
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #10375c;
+  font-family: "Sora", sans-serif;
+}
+
+.services .services-desc {
+  margin-top: 18px;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  color: #575f66;
+  width: 468px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Sora", sans-serif;
+}
+
+.services .services-heading-top {
+  text-align: center;
+}
+
+.services-right .right-item .img-rang {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  background: #6889a9;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.services-row {
+  margin-top: 70px;
+  display: flex;
+}
+
+.services .services-left {
+  margin-right: 130px;
+}
+
+.services .services-right {
+  margin-top: 80px;
+}
+
+.services-left .img-services {
+  width: 570px;
+  height: 570px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.services-right .right-item {
+  display: flex;
+  padding: 22px;
+  cursor: pointer;
+}
+
+.services-right .right-item:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Thêm bóng mờ */
+  border-radius: 12px;
+  transition: 0.25s;
+}
+
+.services-right .right-item .title {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.27;
+  color: #10375c;
+  font-family: "Sora", sans-serif;
+}
+
+.services-right .right-item .desc {
+  margin-top: 8px;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: #575f66;
+  width: 346px;
+  font-family: "Sora", sans-serif;
+}
+
+.services-actions .ser-btn {
+  padding: 17px 44px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.services-actions .ser-btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.services-actions {
+  margin-top: 45px;
 }
