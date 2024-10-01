@@ -274,6 +274,7 @@ nav {
 .services-actions .ser-btn:hover {
   opacity: 0.8;
   cursor: pointer;
+  transition: 0.25s;
 }
 
 .services-actions {
@@ -493,6 +494,7 @@ nav {
 
 .member-item:hover .meet-member {
   transform: scale(1.1);
+  transition: 0.5s;
   cursor: pointer;
 }
 
@@ -530,4 +532,74 @@ nav {
 
 .nutchuyentrang {
   margin-top: 38px;
+}
+
+.install {
+  margin: 180px 0;
+}
+
+.install .install-mobi {
+  display: block;
+  width: 284px;
+  height: 522px;
+  margin-top: -95px;
+  object-fit: cover;
+}
+
+.install-body {
+  display: flex;
+  padding: 0 120px;
+  justify-content: space-between;
+}
+
+.install-body .install-heading {
+  max-width: 489px;
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin-top: 60px;
+  font-family: "Sora", sans-serif;
+}
+
+.install-body .install-desc {
+  margin-top: 18px;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  color: #ffffff;
+  width: 486px;
+  font-family: "Sora", sans-serif;
+}
+
+/* .install-body .install-mobi {
+  margin-right: 70px;
+} */
+
+/* .install-right {
+  margin: 90px 0;
+} */
+
+.link-dow-app {
+  margin-top: 38px;
+  /* padding-bottom: 95px; */
+}
+.link-dow-app .img-app:hover {
+  cursor: pointer;
+}
+.link-dow-app .img-app {
+  margin-right: 20px;
+}
+
+/* .main-content-install {
+  width: 1142px;
+  background-color: #2e80ce;
+  border-radius: 4px;
+} */
+
+.install .main-content .install-body {
+  width: 1142px;
+  background-color: #2e80ce;
+  border-radius: 4px;
 }
