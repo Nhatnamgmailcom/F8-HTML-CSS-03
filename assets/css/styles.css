@@ -252,7 +252,7 @@ nav {
   font-family: "Sora", sans-serif;
 }
 
-.services-right .right-item .desc {
+.work-top .desc {
   margin-top: 8px;
   font-weight: 300;
   font-size: 1.6rem;
@@ -278,3 +278,86 @@ nav {
 .services-actions {
   margin-top: 45px;
 }
+
+.work {
+  padding: 100px 0;
+  background: #f7fbff;
+}
+
+.work .heading {
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #10375c;
+  font-family: "Sora", sans-serif;
+}
+
+.work .desc {
+  margin-top: 18px;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  color: #575f66;
+  width: 468px;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+/* .work-top {
+  text-align: center;
+} */
+
+.work-title {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 2.6rem;
+  line-height: 1.38;
+  color: #10375c;
+  font-family: "Sora", sans-serif;
+}
+
+.work-desc {
+  margin-top: 28px;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: #575f66;
+  font-family: "Sora", sans-serif;
+  /* text-align: justify;
+  hyphens: auto; */
+}
+
+.more {
+  display: inline-block;
+  margin-top: 18px;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: #2e80ce;
+  font-family: "Sora", sans-serif;
+}
+
+.work-row {
+  /* width: 100%; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  margin-top: 70px;
+}
+
+.work-row .work-item {
+  padding: 44px;
+  border: 16px solid #eaf6ff;
+}
+
+.work-row .work-item:hover {
+  cursor: pointer;
+  transform: translateY(-20px);
+  transition: 0.5s;
+  border: 16px solid #499ad7;
+}
+
+/* section {
+  display: block;
+  unicode-bidi: isolate;
+} */
