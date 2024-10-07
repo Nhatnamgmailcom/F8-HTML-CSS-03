@@ -19,14 +19,19 @@ html {
 }
 
 .btn {
-  border-radius: 22px;
-  background: #2e80ce;
-  width: 104px;
-  height: 44px;
+  --height: 60px;
+  display: inline-block;
+  min-width: 205px;
+  height: var(--height);
+  padding: 0 20px;
   border-radius: 99px;
-  flex-shrink: 0;
-  color: white;
-  padding: 8px 19px;
+  border: 1px solid #2e80ce;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: var(--height);
+  color: #fff;
+  background: #2e80ce;
 }
 
 a {
@@ -263,13 +268,13 @@ nav {
   font-family: "Sora", sans-serif;
 }
 
-.services-actions .ser-btn {
+/* .services-actions .ser-btn {
   padding: 17px 44px;
   font-size: 1.6rem;
   font-weight: 400;
   text-align: center;
   border-radius: 30px;
-}
+} */
 
 .services-actions .ser-btn:hover {
   opacity: 0.8;
@@ -420,10 +425,10 @@ nav {
   margin-top: 76px;
 }
 
-.feature-cta {
+/* .feature-cta {
   border-radius: 99px;
   padding: 24px 58px;
-}
+} */
 
 .feature-cta:hover {
   opacity: 0.8;
@@ -466,9 +471,9 @@ nav {
   font-size: 15px;
 }
 
-.meet-cta {
+/* .meet-cta {
   padding: 17px 45px;
-}
+} */
 
 .meet-button {
   margin-top: 70px;
@@ -602,4 +607,187 @@ nav {
   width: 1142px;
   background-color: #2e80ce;
   border-radius: 4px;
+}
+
+.News {
+  margin: 85px 0;
+  padding: 85px 0;
+}
+
+.News .News-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.News .img-new {
+  /* height: 270px; */
+  height: 172px;
+  overflow: hidden;
+  object-fit: cover;
+  width: 100%;
+  /* width: 100%;
+  height: 100%; */
+}
+
+.News .News-thumb {
+  height: 172px;
+  overflow: hidden;
+  /* width: 100%;
+  height: 100%;
+  display: block; */
+}
+
+.News-right .News-list {
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.News .heading {
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #10375c;
+  width: 400px;
+  font-family: "Sora", sans-serif;
+}
+
+.News .News-link {
+  display: inline-block;
+  margin-top: 28px;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.56;
+  text-decoration-line: underline;
+  text-underline-offset: 5px;
+  color: #10375c;
+  font-family: "Sora", sans-serif;
+}
+
+.News .img-News {
+  margin-top: 38px;
+  margin-left: -15px;
+}
+
+.News-body .News-title {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.62;
+  color: #10375c;
+  font-family: "Sora", sans-serif;
+}
+
+.News-body .News-desc {
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 1.71;
+  color: #575f66;
+  font-family: "Sora", sans-serif;
+}
+
+.News-body .link-new-body {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8;
+  color: #10375c;
+  font-family: "Sora", sans-serif;
+}
+
+.News-item .News-body {
+  padding: 24px 24px 16px;
+}
+
+.News-right .News-item {
+  border: 1px solid rgb(227, 227, 227);
+  border-radius: 12px;
+  width: 276px;
+}
+
+.News-thumb {
+  /* padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px; */
+}
+
+/* .News-item:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+} */
+
+.News-item:hover .img-new {
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.News-item:hover {
+  box-shadow: 0px 18px 50px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.News-item {
+  flex: 1;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.25s;
+}
+
+.News-item:hover .News-body {
+  border-color: #fff;
+  cursor: pointer;
+}
+
+.appointment-item {
+  padding: 100px 70px;
+  text-align: center;
+  border-radius: 4px;
+  background: #f7fbff;
+}
+
+.appointment-heading {
+  position: relative;
+  padding-bottom: 20px;
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #10375c;
+  font-family: "Sora", sans-serif;
+}
+
+.appointment-heading::before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  display: block;
+  content: "";
+  width: 136px;
+  height: 2px;
+  background: #2e80ce;
+}
+
+.appointment-desc {
+  max-width: 698px;
+  margin: 18px auto 38px;
+  font-size: 1.6rem;
+  margin-top: 18px;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  color: #575f66;
+  font-family: "Sora", sans-serif;
 }
